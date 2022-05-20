@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Justin Wang for Sunnyvale | Platform</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  </head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script>
+    function toggleClass(elementId, className) {
+      var element = document.getElementById(elementId);
+      if(element.classList.contains(className)) {
+        element.classList.remove(className);
+      } else {
+        element.classList.add(className);
+      }
+
+    }
+    function toggleDropDown() {
+      toggleClass('dropdown-content', 'active');
+      toggleClass('dropdown-button', 'active');
+    }
+    window.addEventListener('load', () => {
+      document.getElementById('dropdown-button').onclick = toggleDropDown;
+    });
+  </script>
+  <body>
+    <div id="info">
+      <div id="links">
+        <div class="navbar">
+          <!-- Desktop -->
+          <div class="desktop-navbar">
+            <a href="/"><img id="logo" src="./img/logo-golden.jpg"></a>
+            <div class="nav-links">
+              <a href="/">MEET JUSTIN</a>
+              <a href="/platform" id="selected-page">PLATFORM</a>
+              <a href="/endorsements">ENDORSEMENTS</a>
+              <a href="/get-involved">GET INVOLVED</a>
+            </div>
+            <!-- TODO: Update with actual donate link -->
+            <a href="https://www.google.com/" class="donate-button">DONATE</a>
+          </div>
+          <!-- Mobile -->
+          <div id="dropdown">
+            <div id="dropdown-buttons">
+              <div id="dropdown-button">
+                <svg id="drop-up" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14l-6-6z"/></svg>
+                <svg id="drop-down" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M24 24H0V0h24v24z" fill="none" opacity=".87"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z"/></svg>
+                <!-- <span>MEET JUSTIN</span> -->
+                <span>PLATFORM</span>
+                <!-- <span>ENDORSEMENTS</span> -->
+                <!-- <span>GET INVOLVED</span> -->
+              </div>
+              <!-- TODO: Update with actual donate link -->
+              <a href="https://www.google.com/" class="donate-button">DONATE</a>
+            </div>
+            <div id="dropdown-content">
+              <a href="/"><div>MEET JUSTIN</div></a>
+              <!-- <a href="/platform"><div>PLATFORM</div></a> -->
+              <a href="/endorsements"><div>ENDORSEMENTS</div></a>
+              <a href="/get-involved"><div>GET INVOLVED</div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="donate-footer">
+        <!-- TODO: Update with actual donate link -->
+        <a href="https://www.google.com/" class="donate-button">DONATE</a>
+      </div>
+
+      <div class="section">
+        <div class="section-container">
+          <img class="section-img" src="./img/beach.jpg">
+          <div class="text-container">
+            <div class="text">
+              <h2>A Comprehensive and Compassionate Plan for Homelessness</h2>
+              <h4>Prevention</h4>
+              <p>The most cost effective way of addressing homelessness is to keep people from becoming homeless in the first place.</p>
+              <p>We need to work with non-profit partners and the County to keep individuals and families from becoming homeless. This includes providing increased emergency assistance. We also need to increase early access to mental health services to help stop people from becoming severely mentally ill.</p>
+              <p>Thanks to my efforts, the County is currently providing a basic income and housing to foster youth who are aging out of the foster system and in danger of becoming homeless. As Mayor, I will work to expand this type of program to cover other vulnerable segments of our community.</p>
+              <h4>Interim Housing</h4>
+              <p>Homeless encampments are a community eyesore, a public health issue, a fire hazard, and often a location for increased crime. I will make sure that encampments are cleaned up compassionately and comprehensively, and not ignored and allowed to grow to the size of the one in the Mineta San Jose International Airport flight path that emerged in the past few years.</p>
+              <p>My highest priority will be to make sure that all of our interim housing sites (homeless shelters) are safe and secure for both the homeless that are living there and the residents of the surrounding neighborhood. The key to this is to keep sites to a manageable size.</p>
+              <p>We cannot concentrate our homeless population in a single location, such as the Fairgrounds. This will dramatically amplify the already high need for services that these individuals have and create a spiraling cycle of incidents and responses that overwhelms police, medical care, mental health, and social service providers. Crime and quality of life issues would then spill out from the interim housing location into the surrounding neighborhoods. This is what happened in large public housing projects in the decades after the 1960s.</p>
+              <p>By keeping interim housing sites to a manageable size, we can collaborate closely with the County and non-profit partners to provide the homeless with the services and support they need.</p>
+              <p>Interim housing does place extra demands on neighborhoods. Those neighborhoods deserve extra resources as a result. I will establish a community benefit fund for neighborhoods that accept interim housing sites. This fund will provide targeted infrastructure improvements, extra library and community center hours, and enhanced recreation opportunities, such as sports leagues and classes, for those neighborhoods where interim housing is located. Just as importantly, I will create a rapid response team that will respond quickly and directly to every report from neighborhood residents about an incident involving the homeless.</p>
+              <p>We also need to provide more interim housing for the most vulnerable homeless, such as the current New Haven shelter that is focused on LGBTQ+ homeless residents.</p>
+              <h4>Permanent Housing</h4>
+              <p>Permanent supportive housing is both the most effective and most cost effective long-term solution to homelessness. More than 90% of people placed in permanent supportive housing are still stably housed after 12 months. We need more permanent supportive housing.</p>
+              <p>I was one of the leaders of the Measure A housing bond campaign to give us the resources to build significant numbers of these units. We are making good progress with 4,400 units of affordable or supportive housing already built or in the construction pipeline.</p>
+              <p>The cost of building supportive housing has been high the past couple of years. This is largely due to the pandemic and the resulting supply chain issues. Costs are expected to moderate. I will make sure we are fiscally responsible with all of our housing projects. I will also support affordable quick-build and modular projects where they are appropriate. The County has already had success with modular and quick-build housing at Casitas Esperanza in front of the old San Jose City Hall on Mission Street.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

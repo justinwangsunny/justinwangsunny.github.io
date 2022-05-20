@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Justin Wang for Sunnyvale | Endorsements</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  </head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script>
+    function toggleClass(elementId, className) {
+      var element = document.getElementById(elementId);
+      if(element.classList.contains(className)) {
+        element.classList.remove(className);
+      } else {
+        element.classList.add(className);
+      }
+
+    }
+    function toggleDropDown() {
+      toggleClass('dropdown-content', 'active');
+      toggleClass('dropdown-button', 'active');
+    }
+    window.addEventListener('load', () => {
+      document.getElementById('dropdown-button').onclick = toggleDropDown;
+    });
+  </script>
+  <body>
+    <div id="info">
+      <div id="links">
+        <div class="navbar">
+          <!-- Desktop -->
+          <div class="desktop-navbar">
+            <a href="/"><img id="logo" src="./img/logo-golden.jpg"></a>
+            <div class="nav-links">
+              <a href="/">MEET JUSTIN</a>
+              <a href="/platform">PLATFORM</a>
+              <a href="/endorsements" id="selected-page">ENDORSEMENTS</a>
+              <a href="/get-involved">GET INVOLVED</a>
+            </div>
+            <!-- TODO: Update with actual donate link -->
+            <a href="https://www.google.com/" class="donate-button">DONATE</a>
+          </div>
+          <!-- Mobile -->
+          <div id="dropdown">
+            <div id="dropdown-buttons">
+              <div id="dropdown-button">
+                <svg id="drop-up" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14l-6-6z"/></svg>
+                <svg id="drop-down" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M24 24H0V0h24v24z" fill="none" opacity=".87"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z"/></svg>
+                <!-- <span>MEET JUSTIN</span> -->
+                <!-- <span>PLATFORM</span> -->
+                <span>ENDORSEMENTS</span>
+                <!-- <span>GET INVOLVED</span> -->
+              </div>
+              <!-- TODO: Update with actual donate link -->
+              <a href="https://www.google.com/" class="donate-button">DONATE</a>
+            </div>
+            <div id="dropdown-content">
+              <a href="/"><div>MEET JUSTIN</div></a>
+              <a href="/platform"><div>PLATFORM</div></a>
+              <!-- <a href="/endorsements"><div>ENDORSEMENTS</div></a> -->
+              <a href="/get-involved"><div>GET INVOLVED</div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="donate-footer">
+        <!-- TODO: Update with actual donate link -->
+        <a href="https://www.google.com/" class="donate-button">DONATE</a>
+      </div>
+
+      <div class="section">
+        <div class="section-container">
+          <div class="text-container">
+            <div class="text">
+              <div id="endorsements">
+                <div class="endorsement">
+                  <img src="./img/endorsements/zoe-lofgren.jpeg">
+                  <h4 class="name">Zoe Lofgren</h4>
+                  <p class="title">US Congress</p>
+                </div>
+                <div class="endorsement">
+                  <img src="./img/endorsements/anna-eshoo.jpeg">
+                  <h4 class="name">Anna Eshoo</h4>
+                  <p class="title">US Congress</p>
+                </div>
+                <div class="endorsement">
+                  <img src="./img/endorsements/dave-cortese.jpeg">
+                  <h4 class="name">Dave Cortese</h4>
+                  <p class="title">CA Senate</p>
+                </div>
+                <div class="endorsement">
+                  <img src="./img/endorsements/norm-mineta.jpeg">
+                  <h4 class="name">Norm Mineta</h4>
+                  <p class="title">Cabinet Secretary, Formaer Member of Congress & Former Mayor of San Jose</p>
+                </div>
+                <div class="endorsement">
+                  <img src="./img/endorsements/susan-ellenberg.jpeg">
+                  <h4 class="name">Susan Ellenberg</h4>
+                  <p class="title">SCC Board of Supervisors</p>
+                </div>
+                <div class="endorsement">
+                  <img src="./img/endorsements/fiona-ma.jpeg">
+                  <h4 class="name">Fiona Ma</h4>
+                  <p class="title">CA State Treasurer</p>
+                </div>
+              </div>
+              <h3>Our Full List of Endorsers</h3>
+              <p>Titles and Organizations for Identification Purposes Only.</p>
+              <ul>
+                <li>Congresswoman Zoe Lofgren</li>
+                <li>Congresswoman Anna Eshoo</li>
+                <li>Congressman Ro Khanna</li>
+                <li>Former Congressman Mike Honda</li>
+                <li>Former Congressman Norm Mineta</li>
+                <li>Carl Guardino, former CEO Silicon Valley Leadership Group</li>
+                <li>Senator Dave Cortese</li>
+                <li>Senator Josh Becker</li>
+                <li>Assemblymember Ash Kalra</li>
+                <li>Assemblymember Evan Low</li>
+                <li>Former Senator Jim Beall</li>
+                <li>Supervisor Susan Ellenberg</li>
+                <li>Former Supervisor Ken Yeager</li>
+                <li>Former Supervisor Blanca Alvarado</li>
+                <li>San Jose Councilmember David Cohen</li>
+                <li>Pattie Cortese, Eastside Union High School District Boardmember</li>
+                <li>Former Assemblymember Manny Diaz</li>
+                <li>SC Valley Water Board Member Dick Santos</li>
+                <li>SC Valley Water Board Member Tony Estremera</li>
+                <li>SJUSD Board Member Brian Wheatley</li>
+                <li>Patrick Ahrens, Board President Foothill DeAnza Community College District</li>
+                <li>Mike Potter, Santa Clara Valley Open Space Authority, Board member</li>
+                <li>Helen Chapman, Santa Clara Valley Open Space Authority Board member</li>
+                <li>Alex Kennett, Santa Clara Valley Open Space Authority Board member</li>
+                <li>Dorsey Moore, Santa Clara Valley Open Space Authority Board member</li>
+                <li>Dr. Kalvin Gill, Santa Clara Valley Open Space Authority Board member</li>
+                <li>Saratoga Councilmember Yan Zhao</li>
+                <li>Sunnyvale Mayor Larry Klein</li>
+                <li>Sunnyvale Councilmember Alysa Cisneros</li>
+                <li>South Bay Labor Council</li>
+                <li>Santa Clara County Democratic Party</li>
+                <li>Silicon Valley Democratic Club</li>
+                <li>Silicon Valley Asian Pacific American Democratic Club</li>
+                <li>Democratic Activists for Women Now (DAWN)</li>
+                <li>SEIU-UHW</li>
+                <li>SEIU-USWW</li>
+                <li>LiUNA 270</li>
+                <li>California Women's List</li>
+                <li>Santa Clara County Correctional Peace Officers' Association</li>
+                <li>Peace Officers Research Association of California (PORAC)</li>
+                <li>SAN JOSE POLICE OFFICERS’ ASSOCIATION</li>
+                <li>Santa Clara County Firefighters</li>
+                <li>AFSCME Local 101</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
